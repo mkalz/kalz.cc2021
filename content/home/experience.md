@@ -22,29 +22,43 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Professor of Digital Education
+    company: Heidelberg University of Education
     company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+    location: Heidelberg, Germany
+    date_start: '2018-04-01'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+        * Director of study program E-Learning and Media Education
+        * Research on TEL
+        * Teaching in MA and Teacher Education
 
-design:
-  columns: '2'
+  - title: Elected president
+    company: European Association of Technology-Enhanced Learning (EATEL)
+    company_url: ''
+    location: Hannover, Germany
+    date_start: '2018-09-18'
+    date_end: '2021-09-19'
+    description: |2-
+        Responsibilities include:
+        
+        * Strategic management of the association
+        * Legal and financial administration
+        * Representation and networking with other professional organisations
+
+
+  - title: Professor of Open Education
+    company: Open University of the Netherlands
+    company_url: ''
+    location: Heerlen, The Netherlands
+    date_start: '2015-04-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        
+        * Research group leader
+        * Member of the management board of the Welten Institute
+        * Supervision of doctoral students
 ---
