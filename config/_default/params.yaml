@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: minimal
+theme: Ocean
 day_night: true
 font: ''
 font_size: L
@@ -16,44 +16,35 @@ site_type: Person
 local_business_type: ''
 org_name: ''
 description: ''
-twitter: ''
+twitter: 'mkalz'
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: kalz@ph-heidelberg.de
+phone: +49-6221-477331
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  street: Heidelberg University of Education, Im Neuenheimer Feld 561
+  city: Heidelberg
+  region: 
+  postcode: '69120'
+  country: Germany
+  country_code: DE
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  latitude: '49.4201'
+  longitude: '8.66952'
+directions: Enter building and take the stairs to the left to the third floor (Office A336)
 office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+  - 'By appointment'
+appointment_url: 'https://calendly.com/mkalz/sprechsstunde-ss2021?month=2021-04'
 contact_links:
   - icon: twitter
     icon_pack: fab
     name: DM Me
-    link: 'https://twitter.com/Twitter'
+    link: 'https://twitter.com/mkalz'
   - icon: skype
     icon_pack: fab
     name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    link: 'skype:marcokalz?call'
 
 # Site header
 
@@ -69,8 +60,8 @@ main_menu:
 # Localization
 
 date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
-address_format: en-us
+time_format: '15:04 PM'
+address_format: de
 
 # Site features
 
@@ -108,8 +99,8 @@ copyright_license:
 abstract_length: 135
 plugins_js: []
 avatar:
-  gravatar: false
-  shape: circle
+  gravatar: true
+  shape: square
 publications:
   date_format: January 2006
   citation_style: apa
@@ -121,7 +112,7 @@ breadcrumb:
   page_types:
     book: true
 comments:
-  provider: ''
+  provider: 'utterances'
   commentable:
     post: true
     book: true
